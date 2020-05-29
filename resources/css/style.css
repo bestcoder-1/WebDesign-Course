@@ -113,6 +113,7 @@
         -o-transition: color 0.3s;
     }
     
+<<<<<<< HEAD
     .features-title {
         margin: 50px auto 50px auto;
         text-align: center;
@@ -138,21 +139,56 @@
         height: 3px;
         background-color: #07314a;
         margin: 35px auto;
+=======
+    .title h2 {
+        text-align: center;
+        margin: 50px auto 30px auto;
+        color: #07314a;
+        font-weight: 600;
+        font-size: 190%;
+    }
+    
+    h2::after {
+        display: block;
+        content: "";
+        height: 2px;
+        width: 250px;
+        background-color: purple;
+        margin: 30px auto;
+    }
+    
+    .title p {
+        width: 900px;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        color: purple;
+        font-size: 110%;
+        line-height: 190%;
+>>>>>>> 0721cf2b813f155ea756788be4a2a23ff42535f4
     }
     
     .cards {
         display: flex;
         justify-content: space-between;
+<<<<<<< HEAD
         margin: 10px;
         color: white;
     }
     
     .cards p {
         line-height: 130%;
+=======
+        text-align: center;
+    }
+    
+    .card h3 {
+        margin-bottom: 10px;
+>>>>>>> 0721cf2b813f155ea756788be4a2a23ff42535f4
     }
     
     .card {
         width: 21%;
+<<<<<<< HEAD
         text-align: center;
         padding: 10px;
     }
@@ -163,11 +199,31 @@
     
     .card1 {
         background-color: tomato;
+=======
+        line-height: 150%;
+        color: white;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        width: 50px;
+        height: 50px;
+        fill: yellow;
+        margin: 10px auto 20px auto;
+    }
+    
+    .card1 {
+        background-color: rgb(136, 180, 47);
+>>>>>>> 0721cf2b813f155ea756788be4a2a23ff42535f4
         border-radius: 25px;
     }
     
     .card2 {
+<<<<<<< HEAD
         background-color: rgb(142, 187, 51);
+=======
+        background-color: tomato;
+>>>>>>> 0721cf2b813f155ea756788be4a2a23ff42535f4
         border-radius: 25px;
     }
     
@@ -177,6 +233,7 @@
     }
     
     .card4 {
+<<<<<<< HEAD
         background-color: rgb(224, 148, 6);
         border-radius: 25px;
     }
@@ -188,6 +245,12 @@
         margin-bottom: 10px;
     }
     
+=======
+        background-color: rgb(105, 173, 219);
+        border-radius: 25px;
+    }
+    
+>>>>>>> 0721cf2b813f155ea756788be4a2a23ff42535f4
     .space {
         height: 1000px;
     }
