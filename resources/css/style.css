@@ -112,3 +112,77 @@
         -ms-transition: color 0.3s;
         -o-transition: color 0.3s;
     }
+    
+    .title h2 {
+        text-align: center;
+        margin: 50px auto 30px auto;
+        color: #07314a;
+        font-weight: 600;
+        font-size: 190%;
+    }
+    
+    h2::after {
+        display: block;
+        content: "";
+        height: 2px;
+        width: 250px;
+        background-color: purple;
+        margin: 30px auto;
+    }
+    
+    .title p {
+        width: 900px;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        color: purple;
+        font-size: 110%;
+        line-height: 190%;
+    }
+    
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .card h3 {
+        margin-bottom: 10px;
+    }
+    
+    .card {
+        width: 21%;
+        line-height: 150%;
+        color: white;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        width: 50px;
+        height: 50px;
+        fill: yellow;
+        margin: 10px auto 20px auto;
+    }
+    
+    .card1 {
+        background-color: rgb(136, 180, 47);
+        border-radius: 25px;
+    }
+    
+    .card2 {
+        background-color: tomato;
+        border-radius: 25px;
+    }
+    
+    .card3 {
+        background-color: purple;
+        border-radius: 25px;
+    }
+    
+    .card4 {
+        background-color: rgb(105, 173, 219);
+        border-radius: 25px;
+    }
+    
+    .space {
+        height: 1000px;
+    }
